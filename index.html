@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samiya & Faisal — Wedding Invitation</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap');
+:root{--gold:#d9b56d;--cream:#fff7e8;--dark:#130f0c;--muted:#d8cbb7}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Montserrat,sans-serif;background:var(--dark);color:var(--cream);overflow-x:hidden}
+section{padding:80px 20px;position:relative}
+.container{max-width:1050px;margin:auto}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:radial-gradient(circle at center,#3a281b 0,#130f0c 55%,#080706 100%);overflow:hidden}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(217,181,109,.35);border-radius:50%;width:480px;height:480px}.hero:before{width:680px;height:680px}.hero:after{width:860px;height:860px}
+.kicker{letter-spacing:6px;text-transform:uppercase;color:var(--gold);font-size:12px;margin-bottom:18px}
+h1,.script{font-family:'Cormorant Garamond',serif}.names{font-size:clamp(58px,12vw,120px);font-weight:500;line-height:.8}.amp{color:var(--gold);font-size:.7em;font-style:italic;margin:0 10px}.date{margin-top:35px;font-size:14px;letter-spacing:4px;color:var(--muted)}
+.btn{display:inline-block;margin-top:35px;padding:14px 24px;border:1px solid var(--gold);border-radius:999px;color:var(--cream);text-decoration:none;font-size:12px;letter-spacing:2px;text-transform:uppercase;transition:.3s}.btn:hover{background:var(--gold);color:var(--dark)}
+.intro{text-align:center;background:#17110d}.ornament{color:var(--gold);font-size:30px;margin-bottom:20px}.intro h2,.section-title{font:600 clamp(38px,7vw,64px) 'Cormorant Garamond',serif;color:var(--cream)}.intro p{max-width:680px;margin:20px auto 0;line-height:1.9;color:var(--muted);font-size:14px}
+.couple{background:#0e0b09}.couple-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.person{text-align:center}.person img{width:min(280px,75vw);aspect-ratio:1;border-radius:50%;object-fit:cover;border:2px solid var(--gold);padding:8px;background:#20160e}.person h3{font:600 42px 'Cormorant Garamond',serif;margin-top:18px}.person p{color:var(--gold);font-size:11px;letter-spacing:3px;text-transform:uppercase;margin-top:4px}.heart{font-size:32px;color:var(--gold);text-align:center}
+.events{background:linear-gradient(#17110d,#0e0b09)}.section-head{text-align:center;margin-bottom:45px}.section-head p{color:var(--muted);font-size:13px;margin-top:8px}.event-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.event{border:1px solid rgba(217,181,109,.35);padding:28px;text-align:center;background:rgba(255,255,255,.02)}.event .icon{font-size:28px}.event h3{font:600 32px 'Cormorant Garamond',serif;margin:12px 0 6px}.event p{color:var(--muted);font-size:13px;line-height:1.7}
+.details{text-align:center;background:#17110d}.detail-card{border:1px solid rgba(217,181,109,.4);padding:35px;max-width:700px;margin:auto}.detail-card h3{font:600 42px 'Cormorant Garamond',serif}.detail-card p{margin-top:10px;color:var(--muted);line-height:1.8}.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:650px;margin:35px auto}.time{border:1px solid rgba(217,181,109,.3);padding:18px 8px}.time strong{display:block;font:600 34px 'Cormorant Garamond',serif;color:var(--gold)}.time span{font-size:9px;letter-spacing:2px;color:var(--muted)}
+.footer{text-align:center;padding:60px 20px;background:#080706}.footer .names{font-size:55px}.footer p{color:var(--muted);margin-top:15px;font-size:12px;letter-spacing:2px}
+@media(max-width:650px){section{padding:65px 16px}.couple-grid{grid-template-columns:1fr}.heart{order:2}.person img{width:220px}.event-grid{grid-template-columns:1fr}.countdown{grid-template-columns:repeat(2,1fr)}.names{font-size:62px}.date{letter-spacing:2px}}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div>
+    <div class="kicker">Together with their families</div>
+    <div class="names"><span>Samiya</span><span class="amp">&</span><span>Faisal</span></div>
+    <div class="date">14 NOVEMBER 2027 • WEDDING DAY</div>
+    <a class="btn" href="#invitation">Open Invitation</a>
+  </div>
+</section>
+
+<section id="invitation" class="intro">
+  <div class="container">
+    <div class="ornament">✦</div>
+    <h2>You're Invited</h2>
+    <p>With joyful hearts and the blessings of our families, we invite you to celebrate the beautiful beginning of a new journey as Samiya and Faisal say “I do”. Your presence will make our special day even more memorable.</p>
+  </div>
+</section>
+
+<section class="couple">
+  <div class="container">
+    <div class="section-head"><div class="kicker">The Couple</div><h2 class="section-title">Two hearts, one beautiful journey</h2></div>
+    <div class="couple-grid">
+      <div class="person"><img src="bride.webp" alt="Samiya"><h3>Samiya</h3><p>The Bride</p></div>
+      <div class="person"><img src="groom.webp" alt="Faisal"><h3>Faisal</h3><p>The Groom</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="events">
+  <div class="container">
+    <div class="section-head"><div class="kicker">Celebration</div><h2 class="section-title">Save the Date</h2><p>Come celebrate love, laughter and a lifetime together.</p></div>
+    <div class="event-grid">
+      <div class="event"><div class="icon">💍</div><h3>Wedding Ceremony</h3><p>14 November 2027<br>At the wedding venue</p></div>
+      <div class="event"><div class="icon">🥂</div><h3>Reception</h3><p>Join us for an evening of joy, food and celebration.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="details">
+  <div class="container">
+    <div class="section-head"><div class="kicker">The Venue</div><h2 class="section-title">See you there</h2></div>
+    <div class="detail-card">
+      <h3>RBM Marriage Hall</h3>
+      <p>14 November 2027<br>We can't wait to celebrate this special day with you.</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=RBM+Marriage+Hall">Get Directions</a>
+    </div>
+    <div class="countdown">
+      <div class="time"><strong id="days">0</strong><span>DAYS</span></div><div class="time"><strong id="hours">0</strong><span>HOURS</span></div><div class="time"><strong id="minutes">0</strong><span>MINUTES</span></div><div class="time"><strong id="seconds">0</strong><span>SECONDS</span></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="names">Samiya <span class="amp">&</span> Faisal</div><p>14 • 11 • 2027 &nbsp; | &nbsp; WITH LOVE</p></footer>
+
+<script>
+const target=new Date('2027-11-14T00:00:00').getTime();
+function update(){const now=Date.now(),d=Math.max(0,target-now);document.getElementById('days').textContent=Math.floor(d/86400000);document.getElementById('hours').textContent=Math.floor(d%86400000/3600000);document.getElementById('minutes').textContent=Math.floor(d%3600000/60000);document.getElementById('seconds').textContent=Math.floor(d%60000/1000)}
+update();setInterval(update,1000);
+</script>
+</body>
+</html>
